@@ -7,7 +7,7 @@ import Example from './components/Example';
 import States from './components/States';
 
 function App() {
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   return (
     <>
