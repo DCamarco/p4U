@@ -5,8 +5,8 @@ Since CSS uses a global name space for classes we should use names starting with
 states- here.
 */
 
+
 .states-container {
-	background: linear-gradient(to right, red, white, blue);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -20,7 +20,7 @@ states- here.
 	column-count: 3;
 	margin: auto;
 	padding-top: 20px;
-	width: 100%;
+	width: 500px;
 	height: 100vh;
 }
 
@@ -30,5 +30,4 @@ states- here.
 
 .states-item {
 	margin: 10px;
-	list-style-type: square;
 }
