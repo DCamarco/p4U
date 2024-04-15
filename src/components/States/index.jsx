@@ -9,7 +9,7 @@ class States extends React.Component {
 		super(props);
 		this.state = {
 			inputValue: "", // The value entered in the input field
-			filteredStates: window.models.states(), // The initial list of states
+			// filteredStates: window.models.states(), // The initial list of states
 		};
 	}
 
@@ -21,12 +21,12 @@ class States extends React.Component {
 	};
 
 	// Method to filter the states based on the input value
-	checkString = (inputValue) => {
-		const filteredStates = window.models.states().filter((state) => {
-			return state.toLowerCase().includes(inputValue.toLowerCase());
-		});
-		this.setState({ filteredStates }); // Updating the filteredStates state
-	};
+	// checkString = (inputValue) => {
+	// 	const filteredStates = window.models.states().filter((state) => {
+	// 		return state.toLowerCase().includes(inputValue.toLowerCase());
+	// 	});
+	// 	this.setState({ filteredStates }); // Updating the filteredStates state
+	// };
 
 	// Render method to render the component's UI
 	render() {
